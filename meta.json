@@ -1,0 +1,106 @@
+{
+  "lang":"en",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.4.4,<3.5.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"Unknown",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null,
+    "mode":"default"
+  },
+  "labels":{
+    "tok2vec":[
+
+    ],
+    "ner":[
+      "COMPANIES WORKED AT",
+      "CONTACT NUMBER",
+      "DEGREE",
+      "DESIGNATION",
+      "EMAIL ADDRESS",
+      "INSTITUTE ",
+      "LOCATION",
+      "NAME",
+      "OBJECTIVE",
+      "SKILLS"
+    ]
+  },
+  "pipeline":[
+    "tok2vec",
+    "ner"
+  ],
+  "components":[
+    "tok2vec",
+    "ner"
+  ],
+  "disabled":[
+
+  ],
+  "performance":{
+    "ents_f":0.9969811321,
+    "ents_p":0.9962292609,
+    "ents_r":0.997734139,
+    "ents_per_type":{
+      "OBJECTIVE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "NAME":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "DESIGNATION":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "CONTACT NUMBER":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "EMAIL ADDRESS":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "SKILLS":{
+        "p":0.9933687003,
+        "r":1.0,
+        "f":0.99667332
+      },
+      "DEGREE":{
+        "p":1.0,
+        "r":0.987012987,
+        "f":0.9934640523
+      },
+      "INSTITUTE ":{
+        "p":1.0,
+        "r":0.9761904762,
+        "f":0.9879518072
+      },
+      "COMPANIES WORKED AT":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "LOCATION":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      }
+    },
+    "tok2vec_loss":692.6244748878,
+    "ner_loss":220.3898071353
+  }
+}
